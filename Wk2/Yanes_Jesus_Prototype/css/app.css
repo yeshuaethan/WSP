@@ -143,6 +143,9 @@ img.right {
 /* Homepage */
 .home {
     background: #000000 url('../images/bg.jpg') repeat-x;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
 }
 .home body {
     background: none;
@@ -187,7 +190,7 @@ img.right {
     display: none;
 }
 #cta .panel {
-    background: rgba(242, 218, 196, 0.15);
+    background: rgba(242, 218, 196, 0.10);
     border: 8px solid rgba(242, 218, 196, 0.15);
     box-shadow: 0px 10px 20px -2px #000000;
     -webkit-box-shadow: 0px 10px 20px -2px #000000;
@@ -211,7 +214,7 @@ img.right {
 }
 .reveal-modal {
     border: 8px solid rgba(0, 0, 0, 0.25);
-    background: rgba(145, 146, 123, 0.95);
+    background: rgba(145, 146, 123, 0.85);
 }
 .reveal-modal h3 {
     font-family:'Archivo Black', sans-serif;
@@ -262,6 +265,7 @@ img.right {
 }
 .about p {
     color: #91927B;
+    font-weight: bold;
 }
 .about #sidebar {
     margin-top: 1.875em;
@@ -302,6 +306,7 @@ img.right {
 }
 #artist a {
     color: #486466;
+    font-weight: bold;
 }
 #artist a:hover {
     text-decoration: underline;
@@ -319,6 +324,7 @@ img.right {
 }
 .artist p {
     color: #91927B;
+    font-weight: bold;
 }
 .artist .section-container.auto>section.active>.title a, 
 .artist .section-container.auto>.section.active>.title a,
@@ -356,7 +362,7 @@ img.right {
 
 /* Concerts */
 .concerts {
-    background: url('../images/bg-concerts.jpg') no-repeat center center fixed;
+    background: url('../images/bg-artists.jpg') no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -366,7 +372,7 @@ img.right {
 }
 .concerts #wrapper {
     padding: 1em;
-    background: rgba(242, 218, 196, 0.8);
+    background: rgba(242, 218, 196, 0.15);
     border-top: 8px solid rgba(0, 0, 0, 0.25);
     border-bottom: 8px solid rgba(0, 0, 0, 0.25);
 }
@@ -381,14 +387,15 @@ img.right {
 }
 .concerts hr {
     visibility: visible;
-    border-color: #222222;
+    border-color: rgba(242, 218, 196, 0.15);
 }
 .concerts h2 {
     font-family:'Archivo Black', sans-serif;
     color: #7B3F37;
 }
 .concerts p {
-    color: rgba(0, 0, 0, 0.75);
+    color: #91927B;
+    font-weight: bold;
 }
 .concerts dt {
     font-family:'Archivo Black', sans-serif;
@@ -396,8 +403,8 @@ img.right {
     padding-top: 10px
 }
 .concerts dd {
-    color: rgba(0, 0, 0, 0.75);
-    font-weight: bold;
+    color: #d3d3ca;
+    font-style: italic;
 }
 .concerts #sidebar {
     margin-top: 1.875em;
@@ -430,10 +437,10 @@ img.right {
     background: none;
 }
 .directions #wrapper {
-    padding: 1em;
-    background: rgba(242, 218, 196, 0.8);
-    border-top: 8px solid rgba(0, 0, 0, 0.25);
-    border-bottom: 8px solid rgba(0, 0, 0, 0.25);
+      padding: 1em;
+      background: rgba(242, 218, 196, 0.15);
+      border-top: 8px solid rgba(0, 0, 0, 0.25);
+      border-bottom: 8px solid rgba(0, 0, 0, 0.25);
 }
 @media only screen and (min-width: 768px) {
     .directions #wrapper {
@@ -446,6 +453,7 @@ img.right {
 }
 .directions a {
     color: #486466;
+    font-weight: bold;
 }
 .directions a:hover {
     text-decoration: underline;
@@ -455,7 +463,8 @@ img.right {
     color: #7B3F37;
 }
 .directions p {
-    color: #7B3F37;
+    color: #91927B;
+    font-weight: bold;
 }
 .directions #sidebar {
     margin-top: 1.875em;
@@ -471,7 +480,8 @@ img.right {
 
 /* News */
 .news {
-    background: #000000 url('../images/bg.jpg') repeat-x;
+  background: url('../images/bg-news.jpg') no-repeat center center fixed; 
+  -webkit-background-size: cover; -moz-background-size: cover; background-size: cover;
 }
 .news body {
     background: none;
@@ -487,8 +497,7 @@ img.right {
         margin-top: 1.875em;
         margin-bottom: 1.875em;
         border: 8px solid rgba(242, 218, 196, 0.15);
-        box-shadow: 0px 10px 20px -2px #000000;
-        -webkit-box-shadow: 0px 10px 20px -2px #000000;
+        box-shadow: 0px 10px 20px -2px #333333; -webkit-box-shadow: 0px 10px 20px -2px #333333;
     }
 }
 .news hr {
@@ -506,10 +515,12 @@ img.right {
     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.6);
 }
 .news h6 {
-    color: #91927B;
+    color: #d3d3ca;
+    font-style: italic;
 }
 .news p {
     color: #91927B;
+    font-weight: bold;
 }
 .news #sidebar {
     margin-top: 1.875em;
@@ -528,7 +539,7 @@ img.right {
   }
     .contact #wrapper {
       padding: 1em;
-      background: rgba(242, 218, 196, 0.8);
+      background: rgba(242, 218, 196, 0.15);
       border-top: 8px solid rgba(0, 0, 0, 0.25);
       border-bottom: 8px solid rgba(0, 0, 0, 0.25);
     }
@@ -541,6 +552,7 @@ img.right {
     }
     .contact a {
       color: #486466;
+      font-weight: bold;
     }
       .contact a:hover {
         text-decoration: underline;
@@ -550,7 +562,8 @@ img.right {
       color: #7B3F37;
     }
     .contact p {
-      color: #7B3F37;
+      color: #91927B;
+      font-weight: bold;
     }
     .contact .section-container.auto>section.active>.title a, 
     .contact .section-container.auto>.section.active>.title a,
@@ -562,6 +575,7 @@ img.right {
     }
     .contact label {
       color: #7B3F37;
+      font-weight: bold;
     }
     #contact button, #contact .button {
       background-color: #91927B;
