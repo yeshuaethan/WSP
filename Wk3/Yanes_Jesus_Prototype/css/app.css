@@ -25,7 +25,8 @@ img.right {
 }
 #content-blocks img {
   border: 8px solid rgba(242, 218, 196, 0.35);
-  box-shadow: 0px 10px 20px -2px #000000; -webkit-box-shadow: 0px 10px 20px -2px #000000;
+  box-shadow: 0px 10px 20px -2px #000000; 
+  -webkit-box-shadow: 0px 10px 20px -2px #000000;
 }
 .section-container, .section-container.auto, 
 .section-container.auto>section .content, .section-container.auto>.section .content, 
@@ -64,12 +65,12 @@ img.right {
 
 /* Navigation */
 .top-bar {
-    background: #000000;
+background:#000;
     font-family:'Archivo Narrow', sans-serif;
 }
 .top-bar.expanded {
-    background: #000000;
-    margin-bottom: 0px;
+    background:#000;
+    margin-bottom:0;
 }
 .top-bar.expanded .title-area {
     background: #000000;
@@ -91,21 +92,21 @@ img.right {
     background: #000000;
 }
 .top-bar-section .divider {
-    border-bottom: solid 1px #222222;
-    border-top: solid 1px #000000;
+    border-bottom:solid 1px #222;
+    border-top:solid 1px #000;
 }
 .top-bar-section ul li > a {
     color: #564D45;
-    background: #000000;
+    background:#000;
     text-transform: uppercase;
     font-size: 1em;
 }
 .top-bar-section ul li > a:hover {
     color: #73675C;
-    background: #000000;
+    background:#000;
 }
 .top-bar-section ul li.active > a {
-    background: #000000;
+    background: #000;
 }
 .top-bar-section ul li > a.current {
     color: #a69585;
@@ -117,24 +118,24 @@ img.right {
 }
 @media only screen and (min-width: 58.75em) {
     .top-bar-section li a:not(.button) {
-        background: #000000;
+        background: #000;
     }
     .top-bar-section li a:not(.button):hover {
-        background: #000000;
+        background: #000;
     }
     .top-bar-section .dropdown li a {
         color: #564D45;
-        background: #000000;
+        background: #000;
     }
     .top-bar-section .dropdown li label {
-        background: #000000;
+        background: #000;
     }
     .top-bar-section > ul > .divider {
-        border-right: solid 1px #000000;
-        border-left: solid 1px #000000;
+        border-right: solid 1px #000;
+        border-left: solid 1px #000;
     }
     .top-bar-section .has-form {
-        background: #000000;
+        background: #000;
         padding: 0 15px;
         height: 45px;
     }
@@ -142,7 +143,7 @@ img.right {
 
 /* Homepage */
 .home {
-    background: #000000 url('../images/bg.jpg') no-repeat center center fixed;
+    background: #000 url('../images/bg.jpg') no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -155,8 +156,8 @@ img.right {
 }
 .orbit-container .orbit-slides-container img, #featured-mobile img {
     border: 8px solid rgba(242, 218, 196, 0.35);
-    box-shadow: 0px 10px 20px -2px #000000;
-    -webkit-box-shadow: 0px 10px 20px -2px #000000;
+    box-shadow: 0px 10px 20px -2px #000;
+    -webkit-box-shadow: 0px 10px 20px -2px #000;
 }
 .orbit-container .orbit-slides-container>* .orbit-caption {
     right: 8px;
@@ -192,8 +193,8 @@ img.right {
 #cta .panel {
     background: rgba(242, 218, 196, 0.10);
     border: 8px solid rgba(242, 218, 196, 0.15);
-    box-shadow: 0px 10px 20px -2px #000000;
-    -webkit-box-shadow: 0px 10px 20px -2px #000000;
+    box-shadow: 0px 10px 20px -2px #000;
+    -webkit-box-shadow: 0px 10px 20px -2px #000;
 }
 #cta h4 {
     font-family:'Archivo Black', sans-serif;
@@ -214,20 +215,21 @@ img.right {
 }
 .reveal-modal {
     border: 8px solid rgba(0, 0, 0, 0.25);
-    background: rgba(145, 146, 123, 0.85);
+    --background: rgba(29, 17, 14, 0.85);
+	background: rgba(145, 146, 123, 0.95);
 }
 .reveal-modal h3 {
     font-family:'Archivo Black', sans-serif;
     color: #7B3F37;
 }
 .reveal-modal label {
-    color: #444444;
+    color: #444;
 }
 .reveal-modal .close-reveal-modal {
     color: #7B3F37;
 }
 .reveal-modal p1 {
-    color: #000000;
+    color: #000;
 }
 .reveal-modal #trackButton {
 float: left;
@@ -262,8 +264,8 @@ float: left;
         margin-top: 1.875em;
         margin-bottom: 1.875em;
         border: 8px solid rgba(242, 218, 196, 0.15);
-        box-shadow: 0px 10px 20px -2px #333333; 
-        -webkit-box-shadow: 0px 10px 20px -2px #333333;
+        box-shadow: 0px 10px 20px -2px #333; 
+        -webkit-box-shadow: 0px 10px 20px -2px #333;
     }
 }
 .about h2 {
@@ -279,8 +281,8 @@ float: left;
 }
 .about img {
     border: 8px solid rgba(242, 218, 196, 0.15);
-    box-shadow: 0px 5px 10px -2px #000000;
-    -webkit-box-shadow: 0px 5px 10px -2px #000000;
+    box-shadow: 0px 5px 10px -2px #000;
+    -webkit-box-shadow: 0px 5px 10px -2px #000;
 }
 .about #footer a {
     color: #486466;
@@ -308,8 +310,8 @@ float: left;
         margin-top: 1.875em;
         margin-bottom: 1.875em;
         border: 8px solid rgba(242, 218, 196, 0.15);
-        box-shadow: 0px 10px 20px -2px #333333; 
-        -webkit-box-shadow: 0px 10px 20px -2px #333333;
+        box-shadow: 0px 10px 20px -2px #333; 
+        -webkit-box-shadow: 0px 10px 20px -2px #333;
     }
 }
 #artist a {
@@ -328,8 +330,20 @@ float: left;
     color: #7B3F37;
     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.6);
 }
-.artist p2 {
+.artist #description {
     color: #c8c8bd;
+    margin-left:30px;
+    margin-top:-20px;
+}
+.artist #description1 {
+    color: #c8c8bd;
+    margin-left:30px;
+    margin-top:-20px;
+}
+.artist #description2 {
+    color: #c8c8bd;
+    margin-left:30px;
+    margin-top:-20px;
 }
 .artist p {
     color: #c8c8bd;
@@ -358,10 +372,19 @@ float: left;
 }
 .artist img {
     border: 8px solid rgba(244, 246, 252, 0.3);
-    box-shadow: 0px 5px 10px -2px #222222;
-    -webkit-box-shadow: 0px 5px 10px -2px #222222;
+    box-shadow: 0px 5px 10px -2px #222;
+    -webkit-box-shadow: 0px 5px 10px -2px #222;
 }
-.artist i1 {
+.artist dd i {
+    color: #7B3F37;
+}
+.artist #icons {
+    color: #7B3F37;
+}
+.artist #icons1 {
+    color: #7B3F37;
+}
+.artist #icons2 {
     color: #7B3F37;
 }
 .artist #buyButton {
@@ -378,8 +401,8 @@ float: left;
 }
 .artist #sidebar img {
     border: 8px solid rgba(242, 218, 196, 0.15);
-    box-shadow: 0px 5px 10px -2px #000000;
-    -webkit-box-shadow: 0px 5px 10px -2px #000000;
+    box-shadow: 0px 5px 10px -2px #000;
+    -webkit-box-shadow: 0px 5px 10px -2px #000;
 }
 .artist #searchBox {
 	float:right;
@@ -408,8 +431,8 @@ float: left;
         margin-top: 1.875em;
         margin-bottom: 1.875em;
         border: 8px solid rgba(242, 218, 196, 0.15);
-        box-shadow: 0px 10px 20px -2px #333333; 
-        -webkit-box-shadow: 0px 10px 20px -2px #333333;
+        box-shadow: 0px 10px 20px -2px #333; 
+        -webkit-box-shadow: 0px 10px 20px -2px #333;
     }
 }
 .concerts hr {
@@ -429,6 +452,31 @@ float: left;
 	font-weight: normal;
 	font-style: italic;
 }
+.concerts #details1 {
+    color: #AD855C;
+	font-weight: normal;
+	font-style: italic;
+}
+.concerts #details2 {
+    color: #AD855C;
+	font-weight: normal;
+	font-style: italic;
+}
+.concerts #details3 {
+    color: #AD855C;
+	font-weight: normal;
+	font-style: italic;
+}
+.concerts #details4 {
+    color: #AD855C;
+	font-weight: normal;
+	font-style: italic;
+}
+.concerts #details5 {
+    color: #AD855C;
+	font-weight: normal;
+	font-style: italic;
+}
 .concerts dt {
     font-family:'Archivo Black', sans-serif;
     color: #7B3F37;
@@ -444,7 +492,7 @@ float: left;
 .concerts #sidebar img {
     border: 8px solid rgba(242, 218, 196, 0.15);
     box-shadow: 0px 5px 10px -2px #000000;
-    -webkit-box-shadow: 0px 5px 10px -2px #000000;
+    -webkit-box-shadow: 0px 5px 10px -2px #000;
 }
 .concerts #footer a {
     color: #486466;
@@ -452,8 +500,8 @@ float: left;
 }
 .concerts img {
     border: 8px solid rgba(0, 0, 0, 0.25);
-    box-shadow: 0px 5px 10px -2px #222222;
-    -webkit-box-shadow: 0px 5px 10px -2px #222222;
+    box-shadow: 0px 5px 10px -2px #222;
+    -webkit-box-shadow: 0px 5px 10px -2px #222;
 }
 .concerts #button {
     text-align: left;
@@ -480,8 +528,8 @@ float: left;
         margin-top: 1.875em;
         margin-bottom: 1.875em;
         border: 8px solid rgba(242, 218, 196, 0.15);
-        box-shadow: 0px 10px 20px -2px #333333; 
-        -webkit-box-shadow: 0px 10px 20px -2px #333333;
+        box-shadow: 0px 10px 20px -2px #333; 
+        -webkit-box-shadow: 0px 10px 20px -2px #333;
     }
 }
 .search hr {
@@ -508,8 +556,8 @@ float: left;
 }
 .search #sidebar img {
     border: 8px solid rgba(242, 218, 196, 0.15);
-    box-shadow: 0px 5px 10px -2px #000000;
-    -webkit-box-shadow: 0px 5px 10px -2px #000000;
+    box-shadow: 0px 5px 10px -2px #000;
+    -webkit-box-shadow: 0px 5px 10px -2px #000;
 }
 .search #footer a {
     color: #486466;
@@ -537,8 +585,8 @@ float: left;
         margin-top: 1.875em;
         margin-bottom: 1.875em;
         border: 8px solid rgba(242, 218, 196, 0.15);
-        box-shadow: 0px 10px 20px -2px #333333; 
-        -webkit-box-shadow: 0px 10px 20px -2px #333333;
+        box-shadow: 0px 10px 20px -2px #333; 
+        -webkit-box-shadow: 0px 10px 20px -2px #333;
     }
 }
 .news hr {
@@ -547,8 +595,8 @@ float: left;
 }
 .news img {
     border: 8px solid rgba(242, 218, 196, 0.15);
-    box-shadow: 0px 5px 10px -2px #000000;
-    -webkit-box-shadow: 0px 5px 10px -2px #000000;
+    box-shadow: 0px 5px 10px -2px #000;
+    -webkit-box-shadow: 0px 5px 10px -2px #000;
 }
 .news h3 {
     font-family:'Archivo Black', sans-serif;
@@ -588,8 +636,8 @@ float: left;
       .contact #wrapper {
         margin-top: 1.875em; margin-bottom: 1.875em;
         border: 8px solid rgba(242, 218, 196, 0.15);
-        box-shadow: 0px 10px 20px -2px #333333; 
-        -webkit-box-shadow: 0px 10px 20px -2px #333333;
+        box-shadow: 0px 10px 20px -2px #333; 
+        -webkit-box-shadow: 0px 10px 20px -2px #333;
       }
     }
     .contact a {
@@ -728,8 +776,8 @@ float: left;
         margin-top: 1.875em;
         margin-bottom: 1.875em;
         border: 8px solid rgba(242, 218, 196, 0.15);
-        box-shadow: 0px 10px 20px -2px #333333; 
-        -webkit-box-shadow: 0px 10px 20px -2px #333333;
+        box-shadow: 0px 10px 20px -2px #333; 
+        -webkit-box-shadow: 0px 10px 20px -2px #333;
     }
 }
 .results hr {
@@ -738,7 +786,6 @@ float: left;
 }
 .results a {
     color: #486466;
-    font-weight: none;
 }
 .results a:hover {
     text-decoration: underline;
@@ -778,7 +825,7 @@ float: left;
 .results-list li ul li{
 	height:40px;
 }
-.results li i1 {
+.results li i {
 	margin-left:10px;
 	color:#7B3F37;
 }
@@ -786,13 +833,46 @@ float: left;
 	float:right;
 	background-color:#009816;
 }
+.results #buyTickets1 {
+	float:right;
+	background-color:#009816;
+}
+.results #buyTickets2 {
+	float:right;
+	background-color:#009816;
+}
+.results #buyTickets3 {
+	float:right;
+	background-color:#009816;
+}
+.results #buyTickets4 {
+	float:right;
+	background-color:#009816;
+}
 .results #trackEvent {
 	background-color:#9f9f9f;
+	margin-top:60px;
+}
+.results #trackEvent1 {
+	background-color:#9f9f9f;
+	margin-top:60px;
+}
+.results #trackEvent2 {
+	background-color:#9f9f9f;
+	margin-top:60px;
+}
+.results #trackEvent3 {
+	background-color:#9f9f9f;
+	margin-top:60px;
+}
+.results #trackEvent4 {
+	background-color:#9f9f9f;
+	margin-top:60px;
 }
 .results li img {
-	border: 8px solid rgba(244, 246, 252, 0.3);
-    box-shadow: 0px 5px 10px -2px #222222;
-    -webkit-box-shadow: 0px 5px 10px -2px #222222;
+    border: 8px solid rgba(242, 218, 196, 0.15);
+    box-shadow: 0px 5px 10px -2px #000000;
+    -webkit-box-shadow: 0px 5px 10px -2px #000;
 }
 
 /* Details */
@@ -814,8 +894,8 @@ float: left;
         margin-top: 1.875em;
         margin-bottom: 1.875em;
         border: 8px solid rgba(242, 218, 196, 0.15);
-        box-shadow: 0px 10px 20px -2px #333333; 
-        -webkit-box-shadow: 0px 10px 20px -2px #333333;
+        box-shadow: 0px 10px 20px -2px #333; 
+        -webkit-box-shadow: 0px 10px 20px -2px #333;
     }
 }
 .details hr {
@@ -824,8 +904,8 @@ float: left;
 }
 .details img {
     border: 8px solid rgba(242, 218, 196, 0.15);
-    box-shadow: 0px 5px 10px -2px #000000;
-    -webkit-box-shadow: 0px 5px 10px -2px #000000;
+    box-shadow: 0px 5px 10px -2px #000;
+    -webkit-box-shadow: 0px 5px 10px -2px #000;
 }
 .details h2 {
     font-family: 'Archivo Black', sans-serif;
@@ -849,5 +929,8 @@ float: left;
 	background-color:#009816;
 }
 .details #trackEvent {
+	background-color:#9f9f9f;
+}
+.details #goingButton {
 	background-color:#9f9f9f;
 }
